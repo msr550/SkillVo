@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE resources [<!ENTITY base_url "https://dev.skillvo.com/api">]>
+
+
+<resources>
+    <string name="url_sample_data">&base_url;/sampledata?format=json</string>
+</resources>

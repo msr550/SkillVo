@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fonts="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/selectRB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/radio_button_selector"
+        android:button="@null" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/selectRB"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <com.msr.skillvotask.views.SVTextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="Hello"
+            android:textSize="18sp"
+            fonts:font="@string/font_regular" />
+
+        <com.msr.skillvotask.views.SVTextView
+            android:id="@+id/photosTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:text="hello"
+            android:textSize="15sp"
+            fonts:font="@string/font_regular" />
+    </LinearLayout>
+</RelativeLayout>
